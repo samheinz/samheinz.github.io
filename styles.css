@@ -1,7 +1,51 @@
 body {
 	background: Teal;
+
 }
 
 h3 {
 	padding: 10px;
+	border-style: groove;
+	border-width: 2px;
+	width: 30%;
+	margin: 1px;
+	font-family: helvetica;
+
 }
+
+ul{
+	background-image: url("https://sensuouscurmudgeon.files.wordpress.com/2010/10/cane-toad.jpg");
+    color: white;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.intro {
+	font-style: italic;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: white;
+}
+
+#menace {
+	font-style: italic;
+	font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 80%;
+  }
+}
+
